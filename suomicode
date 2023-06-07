@@ -26,7 +26,7 @@ X_resampled, y_resampled = rus.fit_resample(X_resampled, y_resampled)
 X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.3, random_state=42)
 
 
-skb = SelectKBest(chi2, k=10) # 可根据需求选择保留的特征数量
+skb = SelectKBest(chi2, k=10) 
 X_train = skb.fit_transform(X_train, y_train)
 X_test = skb.transform(X_test)
 
