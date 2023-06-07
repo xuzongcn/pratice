@@ -14,7 +14,7 @@ from imblearn.under_sampling import RandomUnderSampler
 from sklearn.tree import plot_tree
 
 # 加载 suomi 数据集
-suomi = pd.read_csv("EUn.csv")
+suomi = pd.read_csv("suomi.csv")
 X = suomi.iloc[:, :-1]
 y = suomi.iloc[:, -1]
 
