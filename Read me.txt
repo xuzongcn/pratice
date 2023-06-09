@@ -1,0 +1,13 @@
+Prepared by: Adeola Oyenubi adeol.oyenubi@wits.ac.za
+
+This zip file contain data and code that can be used to reproduce the result and figures presented in the paper
+"Does non-compliance with covid-19 regulations impact the depressive symptoms of others?" 
+by Oyenubi, Adeola and Kollamparambil, Uma
+
+(1) the files "W3Crossection2" and "W2Crossection2" contain the cleaned NIDS-CRAM wave 3 and 2 data respectively
+
+(2) The R file "ECOMOD_replicationfiles" contains the DLM code that produces the results presented in the paper (note one will need to lead the necessary library for the R file to work).
+
+(3) Note that the Double Machine learning command take some time to run (up to 30min depending on the specification of the system)
+
+(4) the mediationanalysis can be reproduuced by running the "mediation" do file on the stata datasets (i.e. "W3Crossection2" and "W2Crossection2")
